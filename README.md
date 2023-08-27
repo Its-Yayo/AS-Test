@@ -1,5 +1,5 @@
 # AS-Test
-AS-Test is a simple test that calculates the values of a quadratic equation in a UI Android app. This project / assignment is for my college.
+AS-Test is a simple test mobile App that calculates the values of a quadratic equation in a UI Android development. This project / assignment is for my college.
 
 Major updates soon...
 
