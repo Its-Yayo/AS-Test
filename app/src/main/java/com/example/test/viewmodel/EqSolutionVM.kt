@@ -9,8 +9,8 @@ class EqSolutionVM: ViewModel() {
     // TODO Implement the ViewModel
 
     private val model = EqSolution()
-    var root1 = 0.0
-    var root2 = 0.0
+    private var root1 = 0.0
+    private var root2 = 0.0
 
     fun solve(a: Double, b: Double, c: Double) {
         var roots = model.roots(a, b, c)
