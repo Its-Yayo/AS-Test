@@ -10,9 +10,9 @@ import com.example.test.viewmodel.EqSolutionVM
 class MainActivity : AppCompatActivity() {
     private lateinit var binding: ActivityMainBinding
     val eqSolutionVM: EqSolutionVM by viewModels()
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        // setContentView(R.layout.activity_main)
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
