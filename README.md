@@ -5,7 +5,7 @@ Major updates soon...
 
 If you wanna clone this project, just make sure to type the following commands:
 ```shell
-$ git clone https://www.github.com/Its-Yayo/As-Test.git
+$ git clone https://www.github.com/Its-Yayo/AS-Test.git
 $ cd AS-Test
 ```
 
