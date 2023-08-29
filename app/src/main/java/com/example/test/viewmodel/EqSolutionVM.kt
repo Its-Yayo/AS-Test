@@ -1,6 +1,7 @@
 package com.example.test.viewmodel
 
 
+import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 import com.example.test.model.EqSolution
 
@@ -10,8 +11,8 @@ class EqSolutionVM: ViewModel() {
 
     private val model = EqSolution()
 
-    var root1 = 0.0
-    var root2 = 0.0
+    val root1 = MutableLiveData<Double>()
+    val root2 = MutableLiveData<Double>()
 
     fun solve(a: Double, b: Double, c: Double) {
         var roots = model.roots(a, b, c)
