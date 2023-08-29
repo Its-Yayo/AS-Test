@@ -11,12 +11,12 @@ class EqSolutionVM: ViewModel() {
 
     private val model = EqSolution()
 
-    val root1 = MutableLiveData<Double>()
-    val root2 = MutableLiveData<Double>()
+    val root1 = MutableLiveData<Double?>()
+    val root2 = MutableLiveData<Double?>()
 
     fun solve(a: Double, b: Double, c: Double) {
         var roots = model.roots(a, b, c)
-        root1 = roots.first!!
-        root2 = roots.second!!
+        root1.value = roots.first
+        root2.value = roots.second
     }
 }
